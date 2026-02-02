@@ -38,3 +38,18 @@ df = pd.read_parquet('data/discursos_senado_imperio_1826_1888.parquet')
 
 # Check the first rows
 print(df.head())
+```
+
+## 5. Methodology
+
+- **5.1. Data Extraction:** Scraping of the Empire's Senate Annals.
+- **5.2. Reprocessing:** 
+    - Noise removal (OCR errors).
+    - Stopwords removal (custom list for 19th-century Portuguese).
+    - Lemmatization.
+- **5.3. Structuring:** Categorization by political party and province to enable econometric analysis.
+
+## 6. Contact and Citation
+This project is currently under development. If you use the dataset or code, please credit this repository.
+- **Author:** Rafael Fonseca Berioni
+- **Institution:** University of São Paulo
