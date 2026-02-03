@@ -12,7 +12,7 @@ By applying **Natural Language Processing (NLP)** techniques to over **80,000 pa
 ## 2. The Dataset
 The core of this repository is the curated dataset located in the `data/` folder. Due to the high volume of text, the data is stored in **Parquet format** to ensure efficiency and type preservation.
 
-### 3. File: `discursos_senado_imperio_1826_1888.parquet` (~67MB)
+## 3. File: `discursos_senado_imperio_1826_1888.parquet` (~67MB)
 This unified dataset contains cleaned and processed speeches from 1826 to 1888.
 
 | Column | Description |
